@@ -6,6 +6,7 @@ MAC OS Install -
 1. /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 2. brew install gcc
+brew install coreutils
 
 3. cd /usr/local/bin/
 
