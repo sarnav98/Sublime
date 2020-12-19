@@ -29,10 +29,25 @@ G++ Build - (SUBLIME)
   "working_dir" : "$file_path"
 }
 
+
+-------------------
+Sublime Build (Windows)
+
+{
+"cmd": ["g++.exe","-std=c++14", "${file}", "-o", "${file_base_name}.exe", "&&" , "${file_base_name}.exe<inputf.in>outputf.in"],
+"selector":"source.cpp",
+"shell":true,
+"working_dir":"$file_path"
+}
+
+#BOTH ARE 3 WINDOW SETUP - (Command + Shift + 3)
+
 --------------------------------------
 Making bits/stdc++.h work - 
 
-simply put (stdc++.h) into /Applications/Xcode.app/Contents/Developer/Platforms/ChosenTargetPlatform/Developer/SDKs/ChosenMacOSSDK/usr/include/bits
+Simply put (stdc++.h) into /Applications/Xcode.app/Contents/Developer/Platforms/ChosenTargetPlatform/Developer/SDKs/ChosenMacOSSDK/usr/include/bits   - In MAC
+
+Simply put (stdc++.h) into C:\MinGW\include\bits folder - In Windows
 
 MAKE SURE TO MAKE A FOLDER named - bits
 
@@ -72,4 +87,8 @@ Sublime Build -
 Download and Install MINGGW and Add it to ENVIRONMENT PATH
 
 ---------------------------------------------
+
+
+
+
 
